@@ -702,7 +702,8 @@ define('"'"'EXCH_YOBIT_SECRET'"'"', '"'"''"'"');
      sudo mysql --defaults-group-suffix=host1 --force < 2017-09-notifications.sql
      sudo mysql --defaults-group-suffix=host1 --force < 2018-01-stratums_ports.sql
      sudo mysql --defaults-group-suffix=host1 --force < 2017-11-segwit.sql
-       
+     sudo mysql --defaults-group-suffix=host1 --force < 2018-02-coins_getinfo.sql
+          
          
     clear
     output "Generating a basic serverconfig.php"
